@@ -36,7 +36,6 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                {/* <li><a href={this.state.} target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li> */}
                 <li><a href={this.state.linkedIn} target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href={this.state.github} target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href={this.state.twitter} target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
