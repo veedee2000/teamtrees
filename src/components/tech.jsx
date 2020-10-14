@@ -21,7 +21,7 @@ export default class Tech extends Component {
             <div className="col-md-4 text-center animate-box">
                 <div className={"services color-" + (Number(this.state.index) + 1)}>
                 <span className="icon">
-                    <i className={icons[Number(this.state.index) + 5]} />
+                    <i className={icons[Number(this.state.index)]} />
                 </span>
                 <div className="desc">
                     <h3>{this.state.name}</h3>
