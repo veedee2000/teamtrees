@@ -20,7 +20,7 @@ export default class Experience extends Component {
 
         return (
             <div>
-                <section className="colorlib-experience" data-section="Work Experience">
+                <section className="colorlib-experience" data-section="experience">
                 <div className="colorlib-narrow-content">
                     <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
