@@ -5,10 +5,6 @@ export default class Institute extends Component {
     constructor (props){
         super(props) 
 
-        console.log(props)
-
-        if(props == null) console.log(1)
-
         this.state = {
             name: this.props.information.name,
             start: this.props.information.start,
