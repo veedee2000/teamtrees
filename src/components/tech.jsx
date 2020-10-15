@@ -19,7 +19,7 @@ export default class Tech extends Component {
 
         return(
             <div className="col-md-4 text-center animate-box">
-                <div className={"services color-" + (Number(this.state.index) + 1)}>
+                <div className={"services color-" + (Number(this.state.index) + 4)}>
                 <span className="icon">
                     <i className={icons[Number(this.state.index)]} />
                 </span>

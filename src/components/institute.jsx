@@ -9,7 +9,8 @@ export default class Institute extends Component {
             name: this.props.information.name,
             start: this.props.information.start,
             end: this.props.information.end,
-            summary: this.props.information.summary
+            summary: this.props.information.summary,
+            index: this.props.index
         }
     }
 
@@ -17,7 +18,7 @@ export default class Institute extends Component {
         return(
             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                 <div className="timeline-entry-inner">
-                <div className="timeline-icon color-3">
+                <div className={"timeline-icon color-" + Number(this.state.index + 1)}>
                     <i className="icon-pen2" />
                 </div>
                 <div className="timeline-label">
