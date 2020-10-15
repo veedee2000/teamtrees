@@ -18,7 +18,7 @@ export default class Institute extends Component {
         return(
             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                 <div className="timeline-entry-inner">
-                <div className={"timeline-icon color-" + Number(this.state.index + 1)}>
+                <div className={"timeline-icon color-" + Number(this.state.index + 2)}>
                     <i className="icon-pen2" />
                 </div>
                 <div className="timeline-label">
