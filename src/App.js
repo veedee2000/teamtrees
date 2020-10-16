@@ -1,31 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
-import Sidebar from './components/sidebar'
+// import Sidebar from './components/sidebar'
+import Header from './components/header'
 import About from './components/about'
 import Skills from './components/skills'
 import Education from './components/education';
 import Experience from './components/experience'
 import Projects from './components/projects'
+import Footer from './components/footer'
 
-class App extends Component {
+export default class App extends Component {
 
   render() {
     return (
-      <div id="colorlib-page">
-        <div id="container-wrap">
-         	<Sidebar></Sidebar>
-				<div id="colorlib-main">
-					{/* <Introduction></Introduction> */}
-					<About></About>
-          <Skills></Skills>
-          <Education></Education>
-					<Experience></Experience>
-          <Projects></Projects>
-          	</div>
-      	</div>
+      <div>
+        <Header></Header>
+        <About></About>
+        <Skills></Skills>
+        <Education></Education>
+        <Experience></Experience>
+        <Projects></Projects>
+        <Footer></Footer>
       </div>
     );
   }
 }
-
-export default App;
